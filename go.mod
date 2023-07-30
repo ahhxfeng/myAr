@@ -2,10 +2,7 @@ module github.com/ahhxfeng/myAr
 
 go 1.18
 
-require (
-	github.com/ahhxfeng/goar v0.0.0-20230727121024-53eb46f048d6
-	github.com/everFinance/goar v1.5.6
-)
+require github.com/everFinance/goar v1.5.6
 
 require (
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
@@ -42,3 +39,5 @@ require (
 	gorm.io/datatypes v1.0.1 // indirect
 	gorm.io/gorm v1.22.4 // indirect
 )
+
+replace github.com/everFinance/goar => ../goar

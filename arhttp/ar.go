@@ -5,17 +5,18 @@ package arhttp
 import (
 	"fmt"
 	"math/big"
+	"os"
 
 	// origin goar import
-	// "github.com/everFinance/goar"
-	// "github.com/everFinance/goar/types"
-
-	"github.com/ahhxfeng/goar"
-	"github.com/ahhxfeng/goar/types"
+	"github.com/everFinance/goar"
+	"github.com/everFinance/goar/types"
+	// my import
+	// "github.com/ahhxfeng/goar"
+	// "github.com/ahhxfeng/goar/types"
 )
 
 func SendAR() {
-	wallet, err := goar.NewWalletFromPath("./key.json", "http://192.168.1.102:1984")
+	wallet, err := goar.NewWalletFromPath("./key.json", "http://192.168.1.126:1984")
 	if err != nil {
 		panic(err)
 
@@ -45,3 +46,22 @@ func SendAR() {
 
 // 	fmt.Println(id, err) // {{id}}, nil
 // }
+
+func SendData() {
+	wallet, err := goar.NewWalletFromPath("./key.json", "http://192.168.1.126:1984")
+	if err != nil {
+		panic(err)
+	}
+	data, err := os.Open("./weave.jpg") // local file path
+	if err != nil {
+		panic(err)
+	}
+	defer data.Close()
+	tags := []types.Tag{
+		{Name: "Content-Type", Value: "img/jpeg"},
+		{Name: "test", Value: "kevin-test"},
+	}
+	tx, err := wallet.SendDataStreamSpeedUp(data, tags, 10)
+	fmt.Printf("Transcation id: %v, Error: %v", tx.ID, err)
+	// fmt.Sprintf("Transcation id : %v, Error: %v", tx.ID, err)
+}
