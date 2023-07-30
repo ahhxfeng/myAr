@@ -6,7 +6,7 @@ import (
 
 func main() {
 	//Todo
-	arhttp.SendAR()
-	// arhttp.SendData()
+	// arhttp.SendAR()
+	arhttp.SendData()
 
 }

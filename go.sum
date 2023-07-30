@@ -3,8 +3,6 @@ github.com/DataDog/zstd v1.5.2 h1:vUG4lAyuPCXO0TLbXvPv7EB7cNK1QV/luu55UHLrrn8=
 github.com/StackExchange/wmi v1.2.1 h1:VIkavFPXSjcnS+O8yTq7NI32k0R5Aj+v39y29VYDOSA=
 github.com/VictoriaMetrics/fastcache v1.6.0 h1:C/3Oi3EiBCqufydp1neRZkqcwmEiuRT9c3fqvvgKm5o=
 github.com/aead/siphash v1.0.1/go.mod h1:Nywa3cDsYNNK3gaciGTWPwHt0wlpNV15vwmswBAUSII=
-github.com/ahhxfeng/goar v0.0.0-20230727121024-53eb46f048d6 h1:6w6RLQJFQWDafCBi7kf9WVYz46EVf/00mR2LqCb7h6s=
-github.com/ahhxfeng/goar v0.0.0-20230727121024-53eb46f048d6/go.mod h1:z0SmFYwKJGNU7rjfwizQHizcqW2KrxdhJxPDt+EObyI=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/btcsuite/btcd v0.20.1-beta/go.mod h1:wVuoA8VJLEcwgqHBwHmzLRazpKxTv13Px/pDuV7OomQ=
 github.com/btcsuite/btcd v0.22.0-beta.0.20220111032746-97732e52810c/go.mod h1:tjmYdS6MLJ5/s0Fj4DbLgSbDHbEqLJrtnHecBFkdz5M=
@@ -57,8 +55,6 @@ github.com/everFinance/arseeding v1.1.9 h1:g+JGw7OujyhLBsc7fZfUlvlz4bQC8ecI4MGU4
 github.com/everFinance/arseeding v1.1.9/go.mod h1:sa9YyLyEk1ODuhYFytdwW7iHvm0CNZazfGvWZIKWSUM=
 github.com/everFinance/ethrpc v1.0.4 h1:Ww+qr8D93Id5QkyG5Mvw58edu5tqy0sL6hDP0IfhYsE=
 github.com/everFinance/ethrpc v1.0.4/go.mod h1:cQipdwW4kM1v8C+q8Z+jDDXwL7a3KngvNk9Yo+lbXpI=
-github.com/everFinance/goar v1.5.6 h1:OJZtgYIKANZLwcb/MK6+sUAFm2C8XbIwyiMTUrQf4s0=
-github.com/everFinance/goar v1.5.6/go.mod h1:YCSGBJ3GMxTZ3kCMaVxD60QWpgP6c4LNhsK8I9XdGF0=
 github.com/everFinance/goether v1.1.9 h1:Y/zz/chv0CmoXz119J3ZK4WbGoHnMjm/IDH5qwKrvVU=
 github.com/everFinance/goether v1.1.9/go.mod h1:QhUIRE3g4CPN4+OGz96pIwguyRH1hZfYo2gAUSY00Qw=
 github.com/everFinance/gojwk v1.0.0 h1:le/oI2NgXlrqg3MHU6ka+V30EWcD7TD6+Ilh+go7924=
